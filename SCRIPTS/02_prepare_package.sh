@@ -207,6 +207,7 @@ svn export https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
 svn export https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
 
 ### 获取额外的 LuCI 应用、主题和依赖 ###
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-poweroff package/luci-app-poweroff
 # 更换 golang 版本
 rm -rf ./feeds/packages/lang/golang
 svn export https://github.com/openwrt/packages/trunk/lang/golang feeds/packages/lang/golang
